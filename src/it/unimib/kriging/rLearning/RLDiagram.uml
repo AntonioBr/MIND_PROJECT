@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="285.5" y="282.0">it.unimib.kriging.rLearning.KActions</node>
+    <node x="75.5" y="404.0">it.unimib.kriging.rLearning.KStateModel</node>
+    <node x="375.5" y="415.0">burlap.mdp.auxiliary.DomainGenerator</node>
+    <node x="505.0" y="282.0">burlap.mdp.core.TerminalFunction</node>
+    <node x="1372.25" y="180.0">it.unimib.kriging.rLearning.KStateVariables</node>
+    <node x="11.5" y="180.0">burlap.mdp.singleagent.model.statemodel.FullStateModel</node>
+    <node x="940.0" y="260.0">it.unimib.kriging.rLearning.KState</node>
+    <node x="589.0" y="415.0">it.unimib.kriging.rLearning.KTerminalFunction</node>
+    <node x="775.0" y="404.0">it.unimib.kriging.rLearning.KRewardFunction</node>
+    <node x="340.25" y="516.0">it.unimib.kriging.rLearning.KDomainGenerator</node>
+    <node x="1085.201530612245" y="180.0">burlap.mdp.core.state.MutableState</node>
+    <node x="727.25" y="282.0">burlap.mdp.singleagent.model.RewardFunction</node>
+    <node x="761.016411564626" y="0.0">burlap.mdp.core.state.State</node>
+    <node x="0.0" y="100.0">burlap.mdp.singleagent.model.statemodel.SampleStateModel</node>
+    <node x="1223.0" y="638.0">it.unimib.kriging.rLearning.Runner</node>
+    <node x="80.5" y="271.0">burlap.mdp.singleagent.model.statemodel.FullStateModel.Helper</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="it.unimib.kriging.rLearning.Runner" target="it.unimib.kriging.rLearning.KStateVariables">
+      <point x="69.0625" y="-26.0" />
+      <point x="1402.5625" y="608.0" />
+      <point x="1482.5" y="608.0" />
+      <point x="36.75" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KRewardFunction" target="it.unimib.kriging.rLearning.KState">
+      <point x="103.0" y="-26.0" />
+      <point x="1032.5" y="384.0" />
+      <point x="1161.6666666666665" y="384.0" />
+      <point x="-44.33333333333337" y="37.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KRewardFunction" target="burlap.mdp.core.state.State">
+      <point x="0.0" y="-26.0" />
+      <point x="929.5" y="80.0" />
+      <point x="807.141411564626" y="80.0" />
+      <point x="5.125" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KTerminalFunction" target="burlap.mdp.core.TerminalFunction">
+      <point x="-55.0" y="-15.0" />
+      <point x="616.5" y="354.0" />
+      <point x="622.0" y="354.0" />
+      <point x="39.0" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KStateModel" target="it.unimib.kriging.rLearning.Runner">
+      <point x="-93.0" y="26.0" />
+      <point x="122.0" y="496.0" />
+      <point x="184.89481292517019" y="496.0" />
+      <point x="184.89481292517019" y="618.0" />
+      <point x="1236.8125" y="618.0" />
+      <point x="-96.6875" y="-26.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KState" target="burlap.mdp.core.state.State">
+      <point x="66.5" y="-37.0" />
+      <point x="1272.5" y="235.0" />
+      <point x="1226.701530612245" y="235.0" />
+      <point x="1226.701530612245" y="60.0" />
+      <point x="827.641411564626" y="60.0" />
+      <point x="25.625" y="15.0" />
+    </edge>
+    <edge source="burlap.mdp.singleagent.model.statemodel.FullStateModel.Helper" target="burlap.mdp.singleagent.model.statemodel.FullStateModel">
+      <point x="-31.0" y="-26.0" />
+      <point x="111.5" y="235.0" />
+      <point x="116.5" y="235.0" />
+      <point x="35.0" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="it.unimib.kriging.rLearning.KActions">
+      <point x="-59.625" y="-26.0" />
+      <point x="439.625" y="476.0" />
+      <point x="365.0" y="476.0" />
+      <point x="26.5" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="burlap.mdp.auxiliary.DomainGenerator">
+      <point x="-19.875" y="-26.0" />
+      <point x="479.375" y="496.0" />
+      <point x="454.5" y="496.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.Runner" target="burlap.mdp.core.state.State">
+      <point x="96.6875" y="-26.0" />
+      <point x="1430.1875" y="618.0" />
+      <point x="1529.75" y="618.0" />
+      <point x="1529.75" y="50.0" />
+      <point x="837.891411564626" y="50.0" />
+      <point x="35.875" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KStateModel" target="burlap.mdp.singleagent.model.statemodel.FullStateModel">
+      <point x="-111.60000000000002" y="-26.0" />
+      <point x="103.39999999999998" y="384.0" />
+      <point x="46.5" y="384.0" />
+      <point x="-35.0" y="15.0" />
+    </edge>
+    <edge source="burlap.mdp.singleagent.model.statemodel.FullStateModel.Helper" target="burlap.mdp.core.state.State">
+      <point x="31.0" y="-26.0" />
+      <point x="173.5" y="60.0" />
+      <point x="776.391411564626" y="60.0" />
+      <point x="-25.625" y="15.0" />
+    </edge>
+    <edge source="burlap.mdp.singleagent.model.statemodel.FullStateModel" target="burlap.mdp.singleagent.model.statemodel.SampleStateModel">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="burlap.mdp.core.state.MutableState" target="burlap.mdp.core.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="1150.701530612245" y="70.0" />
+      <point x="817.391411564626" y="70.0" />
+      <point x="15.375" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KStateModel" target="burlap.mdp.singleagent.model.statemodel.FullStateModel.Helper">
+      <point x="-55.80000000000001" y="-26.0" />
+      <point x="159.19999999999993" y="384.0" />
+      <point x="142.5" y="384.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KState" target="burlap.mdp.core.state.MutableState">
+      <point x="-199.5" y="-37.0" />
+      <point x="1006.5" y="235.0" />
+      <point x="1117.951530612245" y="235.0" />
+      <point x="-32.75" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KTerminalFunction" target="burlap.mdp.core.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="671.5" y="80.0" />
+      <point x="796.891411564626" y="80.0" />
+      <point x="-5.125" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.Runner" target="it.unimib.kriging.rLearning.KState">
+      <point x="13.8125" y="-26.0" />
+      <point x="1347.3125" y="618.0" />
+      <point x="1341.439880952381" y="618.0" />
+      <point x="1341.439880952381" y="384.0" />
+      <point x="1339.0" y="384.0" />
+      <point x="133.0000000000001" y="37.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="it.unimib.kriging.rLearning.KStateModel">
+      <point x="-139.125" y="-26.0" />
+      <point x="360.125" y="496.0" />
+      <point x="215.0" y="496.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="burlap.mdp.singleagent.model.statemodel.SampleStateModel" target="burlap.mdp.core.state.State">
+      <point x="0.0" y="-15.0" />
+      <point x="81.5" y="50.0" />
+      <point x="766.141411564626" y="50.0" />
+      <point x="-35.875" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="it.unimib.kriging.rLearning.KTerminalFunction">
+      <point x="59.625" y="-26.0" />
+      <point x="558.875" y="476.0" />
+      <point x="671.5" y="476.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="it.unimib.kriging.rLearning.KRewardFunction">
+      <point x="139.125" y="-26.0" />
+      <point x="638.375" y="496.0" />
+      <point x="929.5" y="496.0" />
+      <point x="0.0" y="26.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KTerminalFunction" target="it.unimib.kriging.rLearning.KState">
+      <point x="55.0" y="-15.0" />
+      <point x="726.5" y="374.0" />
+      <point x="1073.0" y="374.0" />
+      <point x="-133.0" y="37.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="burlap.mdp.core.TerminalFunction">
+      <point x="19.875" y="-26.0" />
+      <point x="519.125" y="496.0" />
+      <point x="544.0" y="496.0" />
+      <point x="-39.0" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KState" target="it.unimib.kriging.rLearning.KStateVariables">
+      <point x="199.5" y="-37.0" />
+      <point x="1405.5" y="235.0" />
+      <point x="1409.0" y="235.0" />
+      <point x="-36.75" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.Runner" target="it.unimib.kriging.rLearning.KDomainGenerator">
+      <point x="-41.4375" y="-26.0" />
+      <point x="1292.0625" y="598.0" />
+      <point x="578.75" y="598.0" />
+      <point x="79.5" y="26.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KStateModel" target="it.unimib.kriging.rLearning.KActions">
+      <point x="55.80000000000001" y="-26.0" />
+      <point x="270.80000000000007" y="384.0" />
+      <point x="312.0" y="384.0" />
+      <point x="-26.5" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KDomainGenerator" target="burlap.mdp.singleagent.model.RewardFunction">
+      <point x="99.375" y="-26.0" />
+      <point x="598.625" y="486.0" />
+      <point x="764.5" y="486.0" />
+      <point x="-37.25" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KStateModel" target="burlap.mdp.core.state.State">
+      <point x="0.0" y="-26.0" />
+      <point x="215.0" y="70.0" />
+      <point x="786.641411564626" y="70.0" />
+      <point x="-15.375" y="15.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KStateModel" target="it.unimib.kriging.rLearning.KState">
+      <point x="111.59999999999997" y="-26.0" />
+      <point x="326.6" y="364.0" />
+      <point x="984.3333333333333" y="364.0" />
+      <point x="-221.66666666666669" y="37.0" />
+    </edge>
+    <edge source="it.unimib.kriging.rLearning.KRewardFunction" target="burlap.mdp.singleagent.model.RewardFunction">
+      <point x="-103.0" y="-26.0" />
+      <point x="826.5" y="354.0" />
+      <point x="839.0" y="354.0" />
+      <point x="37.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5378668374945147" x="690.9375156871359" y="299.914166454354" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

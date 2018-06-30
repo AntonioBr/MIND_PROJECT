@@ -1,0 +1,418 @@
+!!burlap.behavior.singleagent.Episode
+actionSequence:
+- &id001 !!burlap.mdp.core.action.SimpleAction {name: e2}
+- *id001
+- &id004 !!burlap.mdp.core.action.SimpleAction {name: s2}
+- &id002 !!burlap.mdp.core.action.SimpleAction {name: n2}
+- *id002
+- &id003 !!burlap.mdp.core.action.SimpleAction {name: w2}
+- *id001
+- *id002
+- *id002
+- *id003
+- *id004
+- *id003
+- *id004
+- *id003
+- *id002
+- *id003
+- *id004
+- *id001
+- *id003
+- *id004
+- *id004
+- *id002
+- *id003
+- *id001
+- *id001
+- *id004
+- *id004
+- *id001
+- *id002
+- *id003
+- *id004
+- *id004
+- *id001
+- *id003
+- *id004
+- *id003
+- *id001
+- *id004
+- *id004
+- *id001
+- *id002
+- *id002
+- *id002
+- *id003
+- *id001
+- *id002
+- *id004
+- *id004
+- *id003
+- *id002
+- *id001
+- *id001
+- *id004
+- *id001
+- *id002
+- *id004
+- *id001
+- *id003
+- *id004
+- *id003
+- *id004
+- *id001
+- *id003
+- *id001
+- *id003
+- *id003
+- *id002
+- *id004
+- *id004
+- *id001
+- *id004
+- *id001
+- *id002
+- *id004
+- *id002
+- *id002
+- *id003
+- *id003
+- *id004
+- *id002
+- *id003
+- *id002
+- *id002
+- *id003
+- *id001
+- *id004
+- *id003
+- *id001
+- *id004
+- *id004
+- *id001
+- *id002
+- *id002
+- *id003
+- *id002
+- *id001
+- *id003
+- *id002
+- *id002
+- *id004
+rewardSequence: [-27867.0, -58880.0, -219278.0, -52891.0, 26165.0, 25879.0, -25879.0,
+  -5705.0, -20711.0, -995.0, 16499.0, 21490.0, -14010.0, -5680.0, 7026.0, -25925.0,
+  -38513.0, -12707.0, -38513.0, -105245.0, -254565.0, -105245.0, -188300.0, -105245.0,
+  -80742.0, -232551.0, -232551.0, -247044.0, -91562.0, -80742.0, -232551.0, -232551.0,
+  -247044.0, -232551.0, -232551.0, -254565.0, -232551.0, -232551.0, -232551.0, -247044.0,
+  -91562.0, -21037.0, -7026.0, 0.0, -7026.0, -25825.0, -7026.0, -21037.0, -12707.0,
+  0.0, -7026.0, -28517.0, -45016.0, -70896.0, -50722.0, -70896.0, -89668.0, -70896.0,
+  -149953.0, -119215.0, -279557.0, -316340.0, -279557.0, -316340.0, -279557.0, -247044.0,
+  -91562.0, -247044.0, -247044.0, -279557.0, -279557.0, -316340.0, -149953.0, -316340.0,
+  -149953.0, -70896.0, -45016.0, -21037.0, -91562.0, -21037.0, -12707.0, 0.0, -18917.0,
+  -43775.0, -18917.0, 0.0, -25925.0, 0.0, -12707.0, -80742.0, -91562.0, -21037.0,
+  -7026.0, 0.0, -18917.0, -25825.0, -18917.0, -50496.0, -80515.0, -50496.0]
+stateSequence:
+- !!it.unimib.kriging.rLearning.KState {actions: null##null, angles: 0##0, coordX: 164,
+  coordY: 562, currentMax: 2401.701534567901, currentValue: 2401.701534567901, delta: 0,
+  epoch: 0, remainingShots: 100, running: true, straightX: 0, straightY: 0}
+- !!it.unimib.kriging.rLearning.KState {actions: null##e2, angles: 0##-25, coordX: 204,
+  coordY: 562, currentMax: 2401.701534567901, currentValue: 2373.833583950617, delta: -27867,
+  epoch: 1, remainingShots: 99, running: true, straightX: 204, straightY: 562}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##e2, angles: -25##-30, coordX: 244,
+  coordY: 562, currentMax: 2401.701534567901, currentValue: 2342.8209419753084, delta: -58880,
+  epoch: 2, remainingShots: 98, running: true, straightX: 244, straightY: 562}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: -30##-70, coordX: 244,
+  coordY: 600, currentMax: 2401.701534567901, currentValue: 2182.4233876543212, delta: -219278,
+  epoch: 3, remainingShots: 97, running: true, straightX: 244, straightY: 602}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##n2, angles: -70##80, coordX: 244,
+  coordY: 560, currentMax: 2401.701534567901, currentValue: 2348.809560493827, delta: -52891,
+  epoch: 4, remainingShots: 96, running: true, straightX: 244, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 80##65, coordX: 244,
+  coordY: 520, currentMax: 2427.867338271605, currentValue: 2427.867338271605, delta: 26165,
+  epoch: 5, remainingShots: 95, running: true, straightX: 244, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 65##35, coordX: 204,
+  coordY: 520, currentMax: 2453.74664691358, currentValue: 2453.74664691358, delta: 25879,
+  epoch: 6, remainingShots: 94, running: true, straightX: 204, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: 35##-25, coordX: 244,
+  coordY: 520, currentMax: 2453.74664691358, currentValue: 2427.867338271605, delta: -25879,
+  epoch: 7, remainingShots: 93, running: true, straightX: 244, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: -25##30, coordX: 244,
+  coordY: 480, currentMax: 2453.74664691358, currentValue: 2448.0411654320988, delta: -5705,
+  epoch: 8, remainingShots: 92, running: true, straightX: 244, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 30##5, coordX: 244,
+  coordY: 440, currentMax: 2453.74664691358, currentValue: 2433.0347456790123, delta: -20711,
+  epoch: 9, remainingShots: 91, running: true, straightX: 244, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 5##30, coordX: 204,
+  coordY: 440, currentMax: 2453.74664691358, currentValue: 2452.7510913580245, delta: -995,
+  epoch: 10, remainingShots: 90, running: true, straightX: 204, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 30##25, coordX: 204,
+  coordY: 480, currentMax: 2470.2464, currentValue: 2470.2464, delta: 16499, epoch: 11,
+  remainingShots: 89, running: true, straightX: 204, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##w2, angles: 25##30, coordX: 164,
+  coordY: 480, currentMax: 2491.736572839506, currentValue: 2491.736572839506, delta: 21490,
+  epoch: 12, remainingShots: 88, running: true, straightX: 164, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 30##-10, coordX: 164,
+  coordY: 520, currentMax: 2491.736572839506, currentValue: 2477.7257086419754, delta: -14010,
+  epoch: 13, remainingShots: 87, running: true, straightX: 164, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##w2, angles: -10##15, coordX: 124,
+  coordY: 520, currentMax: 2491.736572839506, currentValue: 2486.056375308642, delta: -5680,
+  epoch: 14, remainingShots: 86, running: true, straightX: 124, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##n2, angles: 15##20, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 7026,
+  epoch: 15, remainingShots: 85, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 20##-25, coordX: 84,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2472.8384, delta: -25925,
+  epoch: 16, remainingShots: 84, running: true, straightX: 84, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: -25##-10, coordX: 84,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2460.2497580246913, delta: -38513,
+  epoch: 17, remainingShots: 83, running: true, straightX: 84, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -10##35, coordX: 124,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2486.056375308642, delta: -12707,
+  epoch: 18, remainingShots: 82, running: true, straightX: 124, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##w2, angles: 35##-25, coordX: 84,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2460.2497580246913, delta: -38513,
+  epoch: 19, remainingShots: 81, running: true, straightX: 84, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: -25##-50, coordX: 84,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2393.5179061728395, delta: -105245,
+  epoch: 20, remainingShots: 80, running: true, straightX: 84, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: -50##5, coordX: 84,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2244.1984, delta: -254565,
+  epoch: 21, remainingShots: 79, running: true, straightX: 84, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##n2, angles: 5##5, coordX: 84,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2393.5179061728395, delta: -105245,
+  epoch: 22, remainingShots: 78, running: true, straightX: 84, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 5##-55, coordX: 44,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2310.4628938271603, delta: -188300,
+  epoch: 23, remainingShots: 77, running: true, straightX: 44, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: -55##65, coordX: 84,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2393.5179061728395, delta: -105245,
+  epoch: 24, remainingShots: 76, running: true, straightX: 84, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##e2, angles: 65##35, coordX: 124,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2418.0208197530865, delta: -80742,
+  epoch: 25, remainingShots: 75, running: true, straightX: 124, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: 35##5, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 26, remainingShots: 74, running: true, straightX: 124, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: 5##-75, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 27, remainingShots: 73, running: true, straightX: 124, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -75##-10, coordX: 164,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2251.7187950617285, delta: -247044,
+  epoch: 28, remainingShots: 72, running: true, straightX: 164, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: -10##5, coordX: 164,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2407.2012641975307, delta: -91562,
+  epoch: 29, remainingShots: 71, running: true, straightX: 164, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 5##5, coordX: 124,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2418.0208197530865, delta: -80742,
+  epoch: 30, remainingShots: 70, running: true, straightX: 124, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 5##5, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 31, remainingShots: 69, running: true, straightX: 124, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: 5##-75, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 32, remainingShots: 68, running: true, straightX: 124, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -75##-10, coordX: 164,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2251.7187950617285, delta: -247044,
+  epoch: 33, remainingShots: 67, running: true, straightX: 164, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##w2, angles: -10##20, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 34, remainingShots: 66, running: true, straightX: 124, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 20##-75, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 35, remainingShots: 65, running: true, straightX: 124, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##w2, angles: -75##-20, coordX: 84,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2244.1984, delta: -254565,
+  epoch: 36, remainingShots: 64, running: true, straightX: 84, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: -20##30, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 37, remainingShots: 63, running: true, straightX: 124, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: 30##-75, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 38, remainingShots: 62, running: true, straightX: 124, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: -75##-75, coordX: 124,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2266.212424691358, delta: -232551,
+  epoch: 39, remainingShots: 61, running: true, straightX: 124, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -75##-10, coordX: 164,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2251.7187950617285, delta: -247044,
+  epoch: 40, remainingShots: 60, running: true, straightX: 164, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: -10##5, coordX: 164,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2407.2012641975307, delta: -91562,
+  epoch: 41, remainingShots: 59, running: true, straightX: 164, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 5##5, coordX: 164,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2477.7257086419754, delta: -21037,
+  epoch: 42, remainingShots: 58, running: true, straightX: 164, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 5##20, coordX: 164,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2491.736572839506, delta: -7026,
+  epoch: 43, remainingShots: 57, running: true, straightX: 164, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 20##10, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 0,
+  epoch: 44, remainingShots: 56, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: 10##0, coordX: 164,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2491.736572839506, delta: -7026,
+  epoch: 45, remainingShots: 55, running: true, straightX: 164, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: 0##5, coordX: 164,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2472.9375604938273, delta: -25825,
+  epoch: 46, remainingShots: 54, running: true, straightX: 164, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##s2, angles: 5##5, coordX: 164,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2491.736572839506, delta: -7026,
+  epoch: 47, remainingShots: 53, running: true, straightX: 164, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: 5##-10, coordX: 164,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2477.7257086419754, delta: -21037,
+  epoch: 48, remainingShots: 52, running: true, straightX: 164, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##w2, angles: -10##15, coordX: 124,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2486.056375308642, delta: -12707,
+  epoch: 49, remainingShots: 51, running: true, straightX: 124, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##n2, angles: 15##20, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 0,
+  epoch: 50, remainingShots: 50, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##e2, angles: 20##0, coordX: 164,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2491.736572839506, delta: -7026,
+  epoch: 51, remainingShots: 49, running: true, straightX: 164, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##e2, angles: 0##-20, coordX: 204,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2470.2464, delta: -28517,
+  epoch: 52, remainingShots: 48, running: true, straightX: 204, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: -20##-15, coordX: 204,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2453.74664691358, delta: -45016,
+  epoch: 53, remainingShots: 47, running: true, straightX: 204, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -15##-25, coordX: 244,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2427.867338271605, delta: -70896,
+  epoch: 54, remainingShots: 46, running: true, straightX: 244, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: -25##30, coordX: 244,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2448.0411654320988, delta: -50722,
+  epoch: 55, remainingShots: 45, running: true, straightX: 244, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##s2, angles: 30##-20, coordX: 244,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2427.867338271605, delta: -70896,
+  epoch: 56, remainingShots: 44, running: true, straightX: 244, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -20##5, coordX: 284,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2409.0951901234566, delta: -89668,
+  epoch: 57, remainingShots: 43, running: true, straightX: 284, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##w2, angles: 5##5, coordX: 244,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2427.867338271605, delta: -70896,
+  epoch: 58, remainingShots: 42, running: true, straightX: 244, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 5##-55, coordX: 244,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2348.809560493827, delta: -149953,
+  epoch: 59, remainingShots: 41, running: true, straightX: 244, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##w2, angles: -55##40, coordX: 204,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2379.5481283950617, delta: -119215,
+  epoch: 60, remainingShots: 40, running: true, straightX: 204, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 40##5, coordX: 204,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2219.2064, delta: -279557,
+  epoch: 61, remainingShots: 39, running: true, straightX: 204, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: 5##-35, coordX: 244,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2182.4233876543212, delta: -316340,
+  epoch: 62, remainingShots: 38, running: true, straightX: 244, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##w2, angles: -35##45, coordX: 204,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2219.2064, delta: -279557,
+  epoch: 63, remainingShots: 37, running: true, straightX: 204, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: 45##-35, coordX: 244,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2182.4233876543212, delta: -316340,
+  epoch: 64, remainingShots: 36, running: true, straightX: 244, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##w2, angles: -35##45, coordX: 204,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2219.2064, delta: -279557,
+  epoch: 65, remainingShots: 35, running: true, straightX: 204, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##w2, angles: 45##40, coordX: 164,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2251.7187950617285, delta: -247044,
+  epoch: 66, remainingShots: 34, running: true, straightX: 164, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##n2, angles: 40##5, coordX: 164,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2407.2012641975307, delta: -91562,
+  epoch: 67, remainingShots: 33, running: true, straightX: 164, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##s2, angles: 5##5, coordX: 164,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2251.7187950617285, delta: -247044,
+  epoch: 68, remainingShots: 32, running: true, straightX: 164, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: 5##-75, coordX: 164,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2251.7187950617285, delta: -247044,
+  epoch: 69, remainingShots: 31, running: true, straightX: 164, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -75##-30, coordX: 204,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2219.2064, delta: -279557,
+  epoch: 70, remainingShots: 30, running: true, straightX: 204, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: -30##-75, coordX: 204,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2219.2064, delta: -279557,
+  epoch: 71, remainingShots: 29, running: true, straightX: 204, straightY: 640}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -75##-35, coordX: 244,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2182.4233876543212, delta: -316340,
+  epoch: 72, remainingShots: 28, running: true, straightX: 244, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: -35##80, coordX: 244,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2348.809560493827, delta: -149953,
+  epoch: 73, remainingShots: 27, running: true, straightX: 244, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##s2, angles: 80##-70, coordX: 244,
+  coordY: 600, currentMax: 2498.763535802469, currentValue: 2182.4233876543212, delta: -316340,
+  epoch: 74, remainingShots: 26, running: true, straightX: 244, straightY: 600}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##n2, angles: -70##80, coordX: 244,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2348.809560493827, delta: -149953,
+  epoch: 75, remainingShots: 25, running: true, straightX: 244, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 80##65, coordX: 244,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2427.867338271605, delta: -70896,
+  epoch: 76, remainingShots: 24, running: true, straightX: 244, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 65##35, coordX: 204,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2453.74664691358, delta: -45016,
+  epoch: 77, remainingShots: 23, running: true, straightX: 204, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##w2, angles: 35##5, coordX: 164,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2477.7257086419754, delta: -21037,
+  epoch: 78, remainingShots: 22, running: true, straightX: 164, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##s2, angles: 5##5, coordX: 164,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2407.2012641975307, delta: -91562,
+  epoch: 79, remainingShots: 21, running: true, straightX: 164, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##n2, angles: 5##5, coordX: 164,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2477.7257086419754, delta: -21037,
+  epoch: 80, remainingShots: 20, running: true, straightX: 164, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 5##15, coordX: 124,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2486.056375308642, delta: -12707,
+  epoch: 81, remainingShots: 19, running: true, straightX: 124, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##n2, angles: 15##20, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 0,
+  epoch: 82, remainingShots: 18, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 20##5, coordX: 124,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2479.8460049382716, delta: -18917,
+  epoch: 83, remainingShots: 17, running: true, straightX: 124, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 5##-25, coordX: 84,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2454.987535802469, delta: -43775,
+  epoch: 84, remainingShots: 16, running: true, straightX: 84, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: -25##35, coordX: 124,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2479.8460049382716, delta: -18917,
+  epoch: 85, remainingShots: 15, running: true, straightX: 124, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: 35##5, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 0,
+  epoch: 86, remainingShots: 14, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##w2, angles: 5##-25, coordX: 84,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2472.8384, delta: -25925,
+  epoch: 87, remainingShots: 13, running: true, straightX: 84, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##e2, angles: -25##35, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 0,
+  epoch: 88, remainingShots: 12, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##s2, angles: 35##-10, coordX: 124,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2486.056375308642, delta: -12707,
+  epoch: 89, remainingShots: 11, running: true, straightX: 124, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##s2, angles: -10##-50, coordX: 124,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2418.0208197530865, delta: -80742,
+  epoch: 90, remainingShots: 10, running: true, straightX: 124, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: s2##e2, angles: -50##5, coordX: 164,
+  coordY: 560, currentMax: 2498.763535802469, currentValue: 2407.2012641975307, delta: -91562,
+  epoch: 91, remainingShots: 9, running: true, straightX: 164, straightY: 560}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##n2, angles: 5##5, coordX: 164,
+  coordY: 520, currentMax: 2498.763535802469, currentValue: 2477.7257086419754, delta: -21037,
+  epoch: 92, remainingShots: 8, running: true, straightX: 164, straightY: 520}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: 5##20, coordX: 164,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2491.736572839506, delta: -7026,
+  epoch: 93, remainingShots: 7, running: true, straightX: 164, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##w2, angles: 20##10, coordX: 124,
+  coordY: 480, currentMax: 2498.763535802469, currentValue: 2498.763535802469, delta: 0,
+  epoch: 94, remainingShots: 6, running: true, straightX: 124, straightY: 480}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##n2, angles: 10##5, coordX: 124,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2479.8460049382716, delta: -18917,
+  epoch: 95, remainingShots: 5, running: true, straightX: 124, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##e2, angles: 5##0, coordX: 164,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2472.9375604938273, delta: -25825,
+  epoch: 96, remainingShots: 4, running: true, straightX: 164, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: e2##w2, angles: 0##10, coordX: 124,
+  coordY: 440, currentMax: 2498.763535802469, currentValue: 2479.8460049382716, delta: -18917,
+  epoch: 97, remainingShots: 3, running: true, straightX: 124, straightY: 440}
+- !!it.unimib.kriging.rLearning.KState {actions: w2##n2, angles: 10##-30, coordX: 124,
+  coordY: 400, currentMax: 2498.763535802469, currentValue: 2448.2667456790123, delta: -50496,
+  epoch: 98, remainingShots: 2, running: true, straightX: 124, straightY: 400}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##n2, angles: -30##-30, coordX: 124,
+  coordY: 360, currentMax: 2498.763535802469, currentValue: 2418.2479802469134, delta: -80515,
+  epoch: 99, remainingShots: 1, running: true, straightX: 124, straightY: 360}
+- !!it.unimib.kriging.rLearning.KState {actions: n2##s2, angles: -30##40, coordX: 124,
+  coordY: 400, currentMax: 2498.763535802469, currentValue: 2448.2667456790123, delta: -50496,
+  epoch: 100, remainingShots: 0, running: true, straightX: 124, straightY: 400}
